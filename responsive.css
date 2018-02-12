@@ -1,0 +1,554 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 768px) {
+  ul.social_menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    position: relative;
+    width: 991px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {}
+@media only screen and (max-width: 1199px) {
+  .title_block h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .title_block {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+  }
+  .block_1-55 {
+    width: 70%;
+  }
+  .section_sky_data .title_block {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .section_leading_services .title_block {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .map_img {
+    position: absolute;
+    top: 0;
+    max-width: 410px;
+  }
+  .info_block_global_data .bg_info,
+  .info_block_peace_mind .bg_info,
+  .info_block_service .bg_info {
+    width: calc(55% - 5px);
+  }
+  .content_info .title strong {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  .bg_info_text {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .footer-container {
+    padding: 60px 0 0;
+  }
+  .footer_block {
+    padding-bottom: 30px;
+  }
+  .info_block .content_info {
+    width: 40%;
+    padding: 60px 20px;
+  }
+  .info_block_global_data .bg_info,
+  .info_block_peace_mind .bg_info,
+  .info_block_service .bg_info {
+    width: calc(60% - 10px);
+  }
+  .title_block {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+  }
+  .header-container.fixed .header_logo {
+    width: 90px;
+  }
+  .section_register {
+    /*-webkit-background-size: 160%;*/
+    /*background-size: 160%;*/
+    padding: 100px 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .header_menu ul li a {
+    padding: 0 15px;
+  }
+  .wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+  }
+  .block_1-55 {
+    width: 80%;
+  }
+  .title_block h1 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+  .title_block {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+  }
+  .content_block p, .content_block {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+  }
+  .map_img {
+    position: absolute;
+    top: 0;
+    max-width: 460px;
+    left: -90px;
+    opacity: 0.7;
+  }
+  .section_leading_services {
+    padding: 100px 0 70px;
+  }
+  .section_sky_data {
+    padding: 90px 0 110px;
+  }
+  .info_block .content_info {
+    width: 50%;
+    padding: 40px 20px;
+  }
+  .info_block_global_data .bg_info, .info_block_peace_mind .bg_info, .info_block_service .bg_info {
+    width: 50%;
+  }
+  .footer_item {
+    width: 50%;
+    margin-top: 25px;
+  }
+  .section_register {
+    padding: 100px 0 70px;
+  }
+  .accordion_title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .accordion_content_inner {
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .content_info .title strong {
+    font-size: 26px;
+    line-height: 1.1;
+  }
+  .section_main {
+    /*text-shadow: 2px 2px 0 rgba(0,0,0,0.7);*/
+  }
+  .bg_info:before {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 767px) {
+  .header_menu.relative ul.social_menu {
+    bottom: 30px;
+    position: relative;
+  }
+  .header_menu.relative ul {
+    padding: 30px 30px 10px 30px;
+  }
+  .header_menu.relative ul.social_menu,
+  ul.social_menu {
+    margin: 0 30px;
+    padding: 0;
+    border-top: 1px solid #8d7bab;
+    bottom: 30px;
+    position: relative;
+    width: calc(100% - 60px);
+    display: none;
+  }
+  .header_menu ul {
+    padding: 30px 30px 60px 30px;
+  }
+  .header-container.fixed.open,
+  .header-container.fixed.bg {
+    background: #795fa9;
+  }
+  .header-container.fixed.open .menu_open_close span,
+  .header-container.fixed.bg .menu_open_close span {
+    background: #fff;
+  }
+  .header-container.fixed {
+    padding: 5px 0;
+    background: #795fa9;
+  }
+  .header-container.fixed.bg .header_logo,
+  .header-container.fixed .header_logo {
+    width: 75px;
+  }
+  .menu_open_close {
+    top: 10px;
+  }
+  .header-container.fixed.bg {
+    padding: 5px 0;
+  }
+  /*.header_menu:before {*/
+  /*content: "";*/
+  /*display: block;*/
+  /*width: 100%;*/
+  /*height: 12px;*/
+  /*background: #fff;*/
+  /*box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);*/
+  /*z-index: 1;*/
+  /*position: absolute;*/
+  /*top: -12px;*/
+  /*}*/
+  .header_menu {
+    display: none;
+    width: 100%;
+    top: 53px;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    background: #795fa9;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    padding-bottom: 75px;
+  }
+  .header-container.fixed.open .header_menu ul li a,
+  .header-container.fixed.bg .header_menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    display: block;
+  }
+  .header_menu ul li {
+    display: block;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+    border-bottom: 1px solid #8d7bab;
+  }
+  .header_menu ul li:last-child {
+    border-bottom: none;
+  }
+  ul.social_menu li {
+    display: inline-block;
+    border: none;
+  }
+
+  ul.social_menu {
+    margin: 0 30px;
+    padding: 0;
+    border-top: 1px solid #8d7bab;
+    bottom: 10px;
+    position: fixed;
+    width: calc(100% - 60px);
+  }
+
+  ul.social_menu li a {
+    padding-right: 30px!important;
+    display: block;
+  }
+  .menu_open_close {
+    display: block;
+  }
+  .section_register {
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .section_register:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.80);
+    top: 0;
+    left: 0;
+  }
+  .grey_text {
+    color: #656565;
+  }
+  .content_info p {
+    color: #656565;
+  }
+  body.show_promo header,
+  body.overflow header {
+    padding-right: inherit;
+  }
+  body.overflow{
+    padding-right: inherit;
+  }
+  .map_img {
+    display: block;
+  }
+  .promo_slides.first .icon-scroll:before, .promo_slides.first .icon-scroll {
+    display: none;
+  }
+  .section_sky_data,
+  .section_register,
+  .section_main {
+    padding: 0;
+    margin-top: 53px;
+  }
+  .block_1-55 {
+    width: 100%;
+  }
+
+  .section_sky_data .wrapper,
+  .section_register .wrapper,
+  .section_main  .wrapper{
+    height: calc(100% - 53px);
+  }
+}
+@media(max-height:650px){ .popup_wrapper{top:5%} }
+@media only screen and (max-width: 600px) {
+
+  .group_form_field {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .form_popup {
+    margin: 0 -15px;
+    padding-bottom: 100px;
+  }
+  .popup_wrapper {
+    top: 5%;
+  }
+  .footer_item {
+    width: 100%;
+  }
+  .block_1-55 {
+    width: 100%;
+  }
+  .map_img {
+    max-width: 400px;
+    left: -90px;
+    opacity: 0.3;
+  }
+  .info_block .content_info {
+    width: 100%;
+    padding: 20px 0;
+    float: none;
+    text-align: left;
+  }
+  .section_leading_services {
+    padding: 100px 0 50px;
+  }
+  .info_block_global_data .bg_info, .info_block_peace_mind .bg_info, .info_block_service .bg_info {
+    width: 100%;
+    float: none;
+    position: relative;
+    padding-bottom: 56.6%;
+  }
+  .info_block_peace_mind .bg_info .bg_info_text,
+  .info_block_global_data .bg_info .bg_info_text, .info_block_service .bg_info .bg_info_text {
+    bottom: initial;
+    top: 15px;
+    left: 15px;
+  }
+  .bg_info_text p:first-child {
+    margin-top: 0;
+  }
+  .footer-container {
+    padding: 30px 0 0;
+  }
+  .footer_block {
+    padding-bottom: 20px;
+  }
+  .footer_item_text, .footer_item_text p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+  .footer_item .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .section_sky_data .content_block p,
+  .section_sky_data .content_block {
+    /*text-shadow: 1px 1px 0 rgba(0,0,0,0.4);*/
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  .bg_info:before {
+    width: 90px;
+    height: 90px;
+  }
+  .section_register .title_block br,
+  .section_main .title_block br {
+    display: none;
+  }
+
+
+  .section_sky_data .title_block {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .section_leading_services .title_block {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .block_1-55 {
+    padding: 0 10px;
+  }
+  .white_line:before, .purple_line:before {
+    height: calc(100% - 3px);
+    width: 3px;
+    top: 3px;
+  }
+  .white_line.title_right_line:before,
+  .purple_line.title_right_line:before {
+    right: -15px;
+  }
+  .white_line.title_left_line:before,
+  .purple_line.title_left_line:before {
+    left: -15px;
+  }
+  .title_block h1 {
+    font-size: 32px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .title_block {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  /* ==========================================================================
+   External form styles
+   ========================================================================== */
+  mktoForm 	{
+    padding:0 !important;
+  }
+  .mktoForm .mktoFieldWrap .mktoGutter {
+    display:block !important;
+    width:100% !important;
+    height:0 !important;
+  }
+  .mktoForm input[type=text],
+  .mktoForm input[type=url],
+  .mktoForm input[type=email],
+  .mktoForm input[type=tel],
+  .mktoForm input[type=number],
+  .mktoForm input[type=date],
+  .mktoForm textarea,
+  .mktoForm select	{
+    float:none !important;
+    width:100% !important;
+    height:auto !important;
+    padding:5px 10px !important;
+  }
+  .mktoForm .mktoFormRow .mktoRequiredField .mktoAsterix {
+    float:right !important;
+    margin-left:5px !important;
+  }
+  .mktoForm .mktoButtonRow .mktoButtonWrap {
+    width:100% !important;
+  }
+  .block_1-55 {
+    padding: 0;
+  }
+  .title_block {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .footer_copyright .copyright {
+    display: block;
+    text-align: center;
+  }
+  .copyright_social {
+    float: none;
+    position: relative;
+    top: 0;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    right: 0;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+  }
+  .footer_copyright {
+    padding: 15px 0;
+  }
+  .btn {
+    width: 100%;
+    display: block;
+    padding: 15px;
+  }
+  .content_block p, .content_block {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+  .title_block {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    margin-top: 10px;
+  }
+  .title_block h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+}
+@media only screen and (max-width: 360px) {
+  .content_block p, .content_block {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  .title_block {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .title_block h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 320px) {
+
+}
